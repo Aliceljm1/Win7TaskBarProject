@@ -1,0 +1,186 @@
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+	<Application.Commands>
+		<!-- Tabs -->
+		<Command Name="Tab1" Id="59001" LabelTitle="Downloads"/>
+		<Command Name="Tab2" LabelTitle="Tools" Id="59002"/>
+		<Command Name="Tab3" LabelTitle="Help" Id="59003"/>
+		<Command Name="Tab4" LabelTitle="Item" Id="59004"/>
+		<Command Name="TabGroup1" Id="59104" LabelTitle="Active Downloads"/>
+		<Command Name="Tab1Group1" LabelTitle="Add"/>
+		<Command Name="CmdAddSingle" LabelTitle="Single" Id="101" TooltipTitle="Ctrl+N">
+			<Command.LargeImages>
+				<Image Source="F:\\TOOLS\\w7aio\\RIB\\add.png.BMP"/>
+			</Command.LargeImages>
+		</Command>
+		<Command Name="CmdAddMultiple" LabelTitle="Multiple" Id="102" TooltipTitle="Ctrl+Shift+N">
+			<Command.LargeImages>
+				<Image Source="F:\\TOOLS\\w7aio\\RIB\\add.png.BMP"/>
+			</Command.LargeImages>
+		</Command>
+		<Command Name="Tab2Group1" LabelTitle="Misc" Id="59201"/>
+		<Command Name="CmdOptions" Id="10010" TooltipTitle="F11" LabelTitle="Options">
+			<Command.LargeImages>
+				<Image Source="F:\\TOOLS\\w7aio\\RIB\\config.png.BMP"/>
+			</Command.LargeImages>
+		</Command>
+		<Command Name="CmdExit" LabelTitle="Exit" TooltipTitle="Alt+F4" Id="10011">
+			<Command.LargeImages>
+				<Image Source="F:\\TOOLS\\w7aio\\RIB\\exit.png.BMP"/>
+			</Command.LargeImages>
+		</Command>
+		<Command Name="CmdAbout" Id="10012" LabelTitle="About...">
+			<Command.LargeImages>
+				<Image Source="F:\\TOOLS\\w7aio\\RIB\\about.png.BMP"/>
+			</Command.LargeImages>
+		</Command>
+		<Command Name="CmdHelp" Id="10013" LabelTitle="Help Index" TooltipTitle="F1">
+			<Command.LargeImages>
+				<Image Source="F:\\TOOLS\\w7aio\\RIB\\help.png.BMP"/>
+			</Command.LargeImages>
+		</Command>
+		<Command Name="Tab1Group2" Id="10014" LabelTitle="Font"/>
+		<Command Name="CmdFont" LabelTitle="cmd_10015" Id="10015"/>
+		<Command Name="Tab1Group3" Id="10016" LabelTitle="Colors"/>
+		<Command Name="CmdColorFG" Id="10017" LabelTitle="FG Color">
+			<Command.LargeImages>
+				<Image Source="F:\\TOOLS\\w7aio\\RIB\\color.png.BMP"/>
+			</Command.LargeImages>
+		</Command>
+		<Command Name="CmdColorBG" Id="10018" LabelTitle="BG Color">
+			<Command.LargeImages>
+				<Image Source="F:\\TOOLS\\w7aio\\RIB\\color.png.BMP"/>
+			</Command.LargeImages>
+		</Command>
+		<Command Name="CmdColorAuto" Id="10019" LabelTitle="Auto Color">
+			<Command.LargeImages>
+				<Image Source="F:\\TOOLS\\w7aio\\RIB\\color2.png.BMP"/>
+			</Command.LargeImages>
+		</Command>
+		<Command Name="CmdRecent" LabelTitle="Recent Items" Id="15000"/>
+		<Command Name="Tab3Group1" Id="10021" LabelTitle="Help"/>
+		<Command Name="CmdMap" Id="10022" LabelTitle="Download Map" TooltipTitle="F9">
+			<Command.LargeImages>
+				<Image Source="F:\\TOOLS\\w7aio\\RIB\\map.png.BMP"/>
+			</Command.LargeImages>
+		</Command>
+		<Command Name="Tab1Group4" Id="10023" LabelTitle="Google"/>
+		<Command Name="Tab1Group5" Id="10024" LabelTitle="Control"/>
+		<Command Name="CmdStop" Id="10025" LabelTitle="Stop Selected">
+			<Command.LargeImages>
+				<Image Source="F:\\TOOLS\\w7aio\\RIB\\stop.png.BMP"/>
+			</Command.LargeImages>
+		</Command>
+		<Command Name="CmdStart" Id="10026" LabelTitle="Start Selected">
+			<Command.LargeImages>
+				<Image Source="F:\\TOOLS\\w7aio\\RIB\\start.png.BMP"/>
+			</Command.LargeImages>
+		</Command>
+		<Command Name="CmdCancel" Id="10027" LabelTitle="Cancel Selected">
+			<Command.LargeImages>
+				<Image Source="F:\\TOOLS\\w7aio\\RIB\\cancel.png.BMP"/>
+			</Command.LargeImages>
+		</Command>
+	</Application.Commands>
+	<Application.Views>
+		<Ribbon Name="Ribbon 1">
+			<Ribbon.Tabs>
+				<Tab CommandName="Tab1">
+					<Tab.ScalingPolicy>
+						<ScalingPolicy>
+							<ScalingPolicy.IdealSizes>
+								<Scale Group="Tab1Group1" Size="Large"/>
+								<Scale Group="Tab1Group2" Size="Large"/>
+								<Scale Group="Tab1Group3" Size="Large"/>
+								<Scale Group="Tab1Group4" Size="Large"/>
+								<Scale Group="Tab1Group5" Size="Large"/>
+							</ScalingPolicy.IdealSizes>
+						</ScalingPolicy>
+					</Tab.ScalingPolicy>
+					<Group CommandName="Tab1Group1" SizeDefinition="TwoButtons">
+						<Button CommandName="CmdAddSingle"/>
+						<Button CommandName="CmdAddMultiple"/>
+					</Group>
+					<Group CommandName="Tab1Group5" SizeDefinition="ThreeButtons">
+						<Button CommandName="CmdStop"/>
+						<Button CommandName="CmdStart"/>
+						<Button CommandName="CmdCancel"/>
+					</Group>
+					<Group CommandName="Tab1Group2" SizeDefinition="OneFontControl">
+						<FontControl CommandName="CmdFont"/>
+					</Group>
+					<Group CommandName="Tab1Group3" SizeDefinition="TwoButtons">
+						<DropDownColorPicker CommandName="CmdColorFG"/>
+						<DropDownColorPicker CommandName="CmdColorBG"/>
+					</Group>
+					<Group CommandName="Tab1Group4" SizeDefinition="OneButton">
+						<Button CommandName="CmdMap"/>
+					</Group>
+				</Tab>
+				<Tab CommandName="Tab2">
+					<Tab.ScalingPolicy>
+						<ScalingPolicy>
+							<ScalingPolicy.IdealSizes>
+								<Scale Group="Tab2Group1" Size="Large"/>
+							</ScalingPolicy.IdealSizes>
+						</ScalingPolicy>
+					</Tab.ScalingPolicy>
+					<Group CommandName="Tab2Group1" SizeDefinition="OneButton">
+						<Button CommandName="CmdOptions"/>
+					</Group>
+				</Tab>
+				<Tab CommandName="Tab3">
+					<Tab.ScalingPolicy>
+						<ScalingPolicy>
+							<ScalingPolicy.IdealSizes>
+								<Scale Group="Tab3Group1" Size="Large"/>
+							</ScalingPolicy.IdealSizes>
+						</ScalingPolicy>
+					</Tab.ScalingPolicy>
+					<Group CommandName="Tab3Group1" SizeDefinition="TwoButtons">
+						<Button CommandName="CmdHelp"/>
+						<Button CommandName="CmdAbout"/>
+					</Group>
+				</Tab>
+			</Ribbon.Tabs>
+			<Ribbon.ApplicationMenu>
+				<ApplicationMenu>
+					<ApplicationMenu.RecentItems>
+						<RecentItems CommandName="CmdRecent" EnablePinning="false" MaxCount="10"/>
+					</ApplicationMenu.RecentItems>
+					<MenuGroup>
+						<Button CommandName="CmdAddSingle"/>
+						<Button CommandName="CmdAddMultiple"/>
+						<Button CommandName="CmdOptions"/>
+						<Button CommandName="CmdExit"/>
+					</MenuGroup>
+				</ApplicationMenu>
+			</Ribbon.ApplicationMenu>
+			<Ribbon.QuickAccessToolbar>
+				<QuickAccessToolbar>
+					<QuickAccessToolbar.ApplicationDefaults>
+						<Button CommandName="CmdAddSingle"/>
+						<Button CommandName="CmdOptions"/>
+					</QuickAccessToolbar.ApplicationDefaults>
+				</QuickAccessToolbar>
+			</Ribbon.QuickAccessToolbar>
+			<Ribbon.ContextualTabs>
+				<TabGroup CommandName="TabGroup1">
+					<Tab CommandName="Tab4">
+						<Tab.ScalingPolicy>
+							<ScalingPolicy>
+								<ScalingPolicy.IdealSizes>
+									<Scale Group="Tab1Group5" Size="Large"/>
+								</ScalingPolicy.IdealSizes>
+							</ScalingPolicy>
+						</Tab.ScalingPolicy>
+						<Group CommandName="Tab1Group5" SizeDefinition="ThreeButtons">
+							<Button CommandName="CmdStop"/>
+							<Button CommandName="CmdStart"/>
+							<Button CommandName="CmdCancel"/>
+						</Group>
+					</Tab>
+				</TabGroup>
+			</Ribbon.ContextualTabs>
+		</Ribbon>
+	</Application.Views>
+</Application>

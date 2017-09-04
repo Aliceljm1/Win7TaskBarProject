@@ -1,0 +1,14 @@
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+	<Application.Commands>
+		<!-- Tabs -->
+		<Command Name="Tab1" LabelTitle="Tab 1" Id="59001"/>
+	</Application.Commands>
+	<Application.Views>
+		<Ribbon Name="Ribbon 1">
+			<Ribbon.Tabs>
+				<Tab CommandName="Tab1"/>
+			</Ribbon.Tabs>
+		</Ribbon>
+	</Application.Views>
+</Application>
+

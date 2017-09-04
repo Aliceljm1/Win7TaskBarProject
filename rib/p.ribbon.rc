@@ -1,0 +1,191 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\p.ribbon.h"
+
+STRINGTABLE 
+BEGIN
+    Tab1_LabelTitle_RESID L"Downloads" /* LabelTitle Tab1_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    Tab2_LabelTitle_RESID L"Tools" /* LabelTitle Tab2_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    Tab3_LabelTitle_RESID L"Help" /* LabelTitle Tab3_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    Tab4_LabelTitle_RESID L"Item" /* LabelTitle Tab4_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    TabGroup1_LabelTitle_RESID L"Active Downloads" /* LabelTitle TabGroup1_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    Tab1Group1_LabelTitle_RESID L"Add" /* LabelTitle Tab1Group1_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    CmdAddSingle_LabelTitle_RESID L"Single" /* LabelTitle CmdAddSingle_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    CmdAddSingle_TooltipTitle_RESID L"Ctrl+N" /* TooltipTitle CmdAddSingle_TooltipTitle_RESID: (null) */
+END
+
+CmdAddSingle_LargeImages_RESID    BITMAP    "F:\\TOOLS\\w7aio\\RIB\\add.png.BMP" /* LargeImages CmdAddSingle_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    CmdAddMultiple_LabelTitle_RESID L"Multiple" /* LabelTitle CmdAddMultiple_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    CmdAddMultiple_TooltipTitle_RESID L"Ctrl+Shift+N" /* TooltipTitle CmdAddMultiple_TooltipTitle_RESID: (null) */
+END
+
+CmdAddMultiple_LargeImages_RESID    BITMAP    "F:\\TOOLS\\w7aio\\RIB\\add.png.BMP" /* LargeImages CmdAddMultiple_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    Tab2Group1_LabelTitle_RESID L"Misc" /* LabelTitle Tab2Group1_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    CmdOptions_LabelTitle_RESID L"Options" /* LabelTitle CmdOptions_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    CmdOptions_TooltipTitle_RESID L"F11" /* TooltipTitle CmdOptions_TooltipTitle_RESID: (null) */
+END
+
+CmdOptions_LargeImages_RESID    BITMAP    "F:\\TOOLS\\w7aio\\RIB\\config.png.BMP" /* LargeImages CmdOptions_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    CmdExit_LabelTitle_RESID L"Exit" /* LabelTitle CmdExit_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    CmdExit_TooltipTitle_RESID L"Alt+F4" /* TooltipTitle CmdExit_TooltipTitle_RESID: (null) */
+END
+
+CmdExit_LargeImages_RESID    BITMAP    "F:\\TOOLS\\w7aio\\RIB\\exit.png.BMP" /* LargeImages CmdExit_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    CmdAbout_LabelTitle_RESID L"About..." /* LabelTitle CmdAbout_LabelTitle_RESID: (null) */
+END
+
+CmdAbout_LargeImages_RESID    BITMAP    "F:\\TOOLS\\w7aio\\RIB\\about.png.BMP" /* LargeImages CmdAbout_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    CmdHelp_LabelTitle_RESID L"Help Index" /* LabelTitle CmdHelp_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    CmdHelp_TooltipTitle_RESID L"F1" /* TooltipTitle CmdHelp_TooltipTitle_RESID: (null) */
+END
+
+CmdHelp_LargeImages_RESID    BITMAP    "F:\\TOOLS\\w7aio\\RIB\\help.png.BMP" /* LargeImages CmdHelp_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    Tab1Group2_LabelTitle_RESID L"Font" /* LabelTitle Tab1Group2_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    CmdFont_LabelTitle_RESID L"cmd_10015" /* LabelTitle CmdFont_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    Tab1Group3_LabelTitle_RESID L"Colors" /* LabelTitle Tab1Group3_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    CmdColorFG_LabelTitle_RESID L"FG Color" /* LabelTitle CmdColorFG_LabelTitle_RESID: (null) */
+END
+
+CmdColorFG_LargeImages_RESID    BITMAP    "F:\\TOOLS\\w7aio\\RIB\\color.png.BMP" /* LargeImages CmdColorFG_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    CmdColorBG_LabelTitle_RESID L"BG Color" /* LabelTitle CmdColorBG_LabelTitle_RESID: (null) */
+END
+
+CmdColorBG_LargeImages_RESID    BITMAP    "F:\\TOOLS\\w7aio\\RIB\\color.png.BMP" /* LargeImages CmdColorBG_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    CmdColorAuto_LabelTitle_RESID L"Auto Color" /* LabelTitle CmdColorAuto_LabelTitle_RESID: (null) */
+END
+
+CmdColorAuto_LargeImages_RESID    BITMAP    "F:\\TOOLS\\w7aio\\RIB\\color2.png.BMP" /* LargeImages CmdColorAuto_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    CmdRecent_LabelTitle_RESID L"Recent Items" /* LabelTitle CmdRecent_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    Tab3Group1_LabelTitle_RESID L"Help" /* LabelTitle Tab3Group1_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    CmdMap_LabelTitle_RESID L"Download Map" /* LabelTitle CmdMap_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    CmdMap_TooltipTitle_RESID L"F9" /* TooltipTitle CmdMap_TooltipTitle_RESID: (null) */
+END
+
+CmdMap_LargeImages_RESID    BITMAP    "F:\\TOOLS\\w7aio\\RIB\\map.png.BMP" /* LargeImages CmdMap_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    Tab1Group4_LabelTitle_RESID L"Google" /* LabelTitle Tab1Group4_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    Tab1Group5_LabelTitle_RESID L"Control" /* LabelTitle Tab1Group5_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    CmdStop_LabelTitle_RESID L"Stop Selected" /* LabelTitle CmdStop_LabelTitle_RESID: (null) */
+END
+
+CmdStop_LargeImages_RESID    BITMAP    "F:\\TOOLS\\w7aio\\RIB\\stop.png.BMP" /* LargeImages CmdStop_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    CmdStart_LabelTitle_RESID L"Start Selected" /* LabelTitle CmdStart_LabelTitle_RESID: (null) */
+END
+
+CmdStart_LargeImages_RESID    BITMAP    "F:\\TOOLS\\w7aio\\RIB\\start.png.BMP" /* LargeImages CmdStart_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    CmdCancel_LabelTitle_RESID L"Cancel Selected" /* LabelTitle CmdCancel_LabelTitle_RESID: (null) */
+END
+
+CmdCancel_LargeImages_RESID    BITMAP    "F:\\TOOLS\\w7aio\\RIB\\cancel.png.BMP" /* LargeImages CmdCancel_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    InternalCmd2_LabelTitle_RESID L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "F:\\TOOLS\\w7aio\\RIB\\p.ribbon.bin"

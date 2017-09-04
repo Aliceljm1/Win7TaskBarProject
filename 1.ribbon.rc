@@ -1,0 +1,18 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\1.ribbon.h"
+
+STRINGTABLE 
+BEGIN
+    Tab1_LabelTitle_RESID L"Tab 1" /* LabelTitle Tab1_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd2_LabelTitle_RESID L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "1.ribbon.bin"

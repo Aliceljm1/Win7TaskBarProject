@@ -1,0 +1,81 @@
+// *****************************************************************************
+// * This is an automatically generated header file for UI Element definition  *
+// * resource symbols and values. Please do not modify manually.               *
+// *****************************************************************************
+
+#pragma once
+
+#define Tab1 59001 
+#define Tab1_LabelTitle_RESID 60001
+#define Tab2 59002 
+#define Tab2_LabelTitle_RESID 60002
+#define Tab3 59003 
+#define Tab3_LabelTitle_RESID 60003
+#define Tab4 59004 
+#define Tab4_LabelTitle_RESID 60004
+#define TabGroup1 59104 
+#define TabGroup1_LabelTitle_RESID 60005
+#define Tab1Group1 2 
+#define Tab1Group1_LabelTitle_RESID 60006
+#define CmdAddSingle 101 
+#define CmdAddSingle_LabelTitle_RESID 60007
+#define CmdAddSingle_TooltipTitle_RESID 60008
+#define CmdAddSingle_LargeImages_RESID 60009
+#define CmdAddMultiple 102 
+#define CmdAddMultiple_LabelTitle_RESID 60010
+#define CmdAddMultiple_TooltipTitle_RESID 60011
+#define CmdAddMultiple_LargeImages_RESID 60012
+#define Tab2Group1 59201 
+#define Tab2Group1_LabelTitle_RESID 60013
+#define CmdOptions 10010 
+#define CmdOptions_LabelTitle_RESID 60014
+#define CmdOptions_TooltipTitle_RESID 60015
+#define CmdOptions_LargeImages_RESID 60016
+#define CmdExit 10011 
+#define CmdExit_LabelTitle_RESID 60017
+#define CmdExit_TooltipTitle_RESID 60018
+#define CmdExit_LargeImages_RESID 60019
+#define CmdAbout 10012 
+#define CmdAbout_LabelTitle_RESID 60020
+#define CmdAbout_LargeImages_RESID 60021
+#define CmdHelp 10013 
+#define CmdHelp_LabelTitle_RESID 60022
+#define CmdHelp_TooltipTitle_RESID 60023
+#define CmdHelp_LargeImages_RESID 60024
+#define Tab1Group2 10014 
+#define Tab1Group2_LabelTitle_RESID 60025
+#define CmdFont 10015 
+#define CmdFont_LabelTitle_RESID 60026
+#define Tab1Group3 10016 
+#define Tab1Group3_LabelTitle_RESID 60027
+#define CmdColorFG 10017 
+#define CmdColorFG_LabelTitle_RESID 60028
+#define CmdColorFG_LargeImages_RESID 60029
+#define CmdColorBG 10018 
+#define CmdColorBG_LabelTitle_RESID 60030
+#define CmdColorBG_LargeImages_RESID 60031
+#define CmdColorAuto 10019 
+#define CmdColorAuto_LabelTitle_RESID 60032
+#define CmdColorAuto_LargeImages_RESID 60033
+#define CmdRecent 15000 
+#define CmdRecent_LabelTitle_RESID 60034
+#define Tab3Group1 10021 
+#define Tab3Group1_LabelTitle_RESID 60035
+#define CmdMap 10022 
+#define CmdMap_LabelTitle_RESID 60036
+#define CmdMap_TooltipTitle_RESID 60037
+#define CmdMap_LargeImages_RESID 60038
+#define Tab1Group4 10023 
+#define Tab1Group4_LabelTitle_RESID 60039
+#define Tab1Group5 10024 
+#define Tab1Group5_LabelTitle_RESID 60040
+#define CmdStop 10025 
+#define CmdStop_LabelTitle_RESID 60041
+#define CmdStop_LargeImages_RESID 60042
+#define CmdStart 10026 
+#define CmdStart_LabelTitle_RESID 60043
+#define CmdStart_LargeImages_RESID 60044
+#define CmdCancel 10027 
+#define CmdCancel_LabelTitle_RESID 60045
+#define CmdCancel_LargeImages_RESID 60046
+#define InternalCmd2_LabelTitle_RESID 60047
